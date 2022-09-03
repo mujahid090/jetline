@@ -1,0 +1,384 @@
+@import "partials/variables";
+
+.home-counter-bg{
+    background-image: url(../img/home/counter-section/bg.png);
+    &:before{
+        background-color: blue;
+    }
+}
+
+/*home-about-section-start*/
+.home-about {
+    background-image: url(../img/home/about-section/bg-about.png);
+    background-size: cover;
+    max-width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    .idol {
+        .img {
+            position: absolute;
+            height: 344px;
+            width: 206px;
+        }
+        .card {
+            position: relative;
+            top: 510px;
+            left: -10px;
+            border-radius: 10px;
+            height: 80px;
+            width: 190px;
+            box-shadow: 0 0 20px rgba(18, 19, 18, 0.2);
+            padding-left: 18px;
+            padding-top: 6px;
+            .serviced {
+                font-size: 25px;
+                color: mediumturquoise;
+                font-weight: 700;
+                margin: -2;
+            }
+            h6 {
+                font-weight: 600;
+                margin: -2;
+            }
+        }
+    }
+    .content {
+        .about-us {
+            padding-bottom: 40px;
+            .circle {
+                height: 30px;
+                width: 30px;
+                background-color: rgba(0, 160, 255, 0.1);
+                border-radius: 50%;
+                display: block;
+                margin-top: 3px;
+                position: absolute;
+            }
+            h5 {
+                text-decoration: none;
+                margin-left: 5px;
+                font-size: 20px;
+                position: absolute;
+                margin-top: 5px;
+                color: $secondary-color;
+            }
+        }
+        .comment h1 {
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .description {
+            padding-top: 40px;
+            .dot {
+                height: 70px;
+                width: 20px;
+                background-color: $primary-color;
+                border-radius: 5px;
+                display: block;
+            }
+            p {
+                padding-left: 10px;
+            }
+        }
+        .check-card {
+            border-bottom: 1px solid #ddd;
+            padding-top: 40px;
+            margin-bottom: 40px;
+            padding-bottom: 15px;
+            .check-item {
+                padding-top: 5px;
+                i {
+                    padding-top: 5px;
+                    color: $secondary-color;
+                }
+                p {
+                    padding-left: 20px;
+                }
+            }
+        }
+        .service-box {
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            color: $heading-color;
+            &:first-child {
+                margin-right: 30px;
+            }
+            &__count {
+                font-size: 40px;
+                font-weight: 700;
+                margin-right: 10px;
+            }
+            &__content {
+                h4 {
+                    font-size: 14px;
+                    font-weight: 700;
+                    margin-bottom: 5px;
+                }
+                h5 {
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-bottom: 0;
+                }
+            }
+            &.public {
+                border-color: $primary-color;
+            }
+            &.emergency {
+                border-color: $secondary-color;
+            }
+        }
+    }
+}
+/*home-about-section-end*/
+
+.about-bg{
+    background-image: url(../img/about-us/about-us-bg.png);
+    background-size: cover;
+}
+//about-us-start//*
+.about-us {
+    padding: 120px 0;
+    .about-us-content {
+        padding: 50px;
+        .content {
+            .circle {
+                height: 25px;
+                width: 25px;
+                background-color: rgba(0, 160, 255, 0.1);
+                border-radius: 50%;
+                display: inline-block;
+                margin-top: 3px;
+                position: absolute;
+            }
+            h5 {
+                color: rgb(0, 160, 255);
+                padding-top: 5px;
+                padding-left: 5px;
+                font-size: 15px;
+                font-weight: 600;
+            }
+        }
+        .comment {
+            h2 {
+                font-size: 45px;
+                font-weight: 600;
+                line-height: 1.3em;
+            }
+        }
+        .description {
+            margin-top: 40px;
+            p {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 1.9em;
+                color: $text-color;
+            }
+        }
+        .dashed-line {
+            color: rgba($heading-color, 0.2);
+            border-bottom: dashed;
+            border-width: 2px;
+            margin-top: 40px;
+        }
+        .check-card {
+            margin-top: 30px;
+            .check-item {
+                .item {
+                    i {
+                        margin-top: 5px;
+                        margin-right: 5px;
+                        height: 10px;
+                        width: 10px;
+                        color: $secondary-color;
+                    }
+                    p {
+                        padding-left: 8px;
+                        color: $text-color;
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+        .plain-text {
+            p {
+                margin-top: 40px;
+                font-size: 15px;
+                color: $text-color;
+                font-weight: 400;
+            }
+        }
+        a {
+            margin-top: 40px;
+            background-color: $primary-color;
+            width: 180px;
+            height: 55px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            color: white;
+        }
+    }
+    .idol {
+        .img {
+            img {
+                position: absolute;
+                border-radius: 10px;
+            }
+        }
+        .square-bar {
+            height: 250px;
+            width: 50px;
+            background-color: rgb(0, 160, 255);
+            border-radius: 0px 10px 10px 0px;
+            display: block;
+            position: relative;
+            right: -548px;
+            bottom: -400px;
+        }
+        .card {
+            position: relative;
+            top: 290px;
+            left: -80px;
+            border-radius: 10px;
+            border-color: $primary-color;
+            height: 105px;
+            width: 220px;
+            box-shadow: 0 10 60% $shadow-color;
+            border-width: 3px;
+            text-align: center;
+            .serviced {
+                font-size: 45px;
+                font-weight: 500;
+                margin-top: 5px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 12px;
+                margin-top: -6px;
+            }
+        }
+    }
+}
+//about-us-end//*
+
+//team-section-start//*
+.team-section {
+    padding-top: 100px;
+    background-color: $background-color;
+    padding-bottom: 170px;
+    .team {
+        padding: 20px;
+        .heading {
+            .circle {
+                border-radius: 50%;
+                display: block;
+                height: 30px;
+                width: 30px;
+                background-color: rgba($secondary-color, 0.2);
+                align-items: center;
+                margin-top: 30px;
+            }
+            h5 {
+                padding-top: 32px;
+                margin-left: -20px;
+                color: $secondary-color;
+            }
+        }
+        .comment {
+            padding-top: 20px;
+            h1 {
+                font-weight: 600;
+                font-size: 50px;
+            }
+        }
+        .description {
+            p {
+                padding-top: 40px;
+                line-height: 1.8;
+                color: $text-color;
+            }
+        }
+        .arrow {
+            .arrow-left {
+                .circle {
+                    border-radius: 50%;
+                    display: block;
+                    height: 40px;
+                    width: 40px;
+                    background-color: $primary-color;
+                    text-align: center;
+                    margin-top: 30px;
+                    i {
+                        font-size: 20px;
+                        color: white;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .arrow-right {
+                padding-left: 30px;
+                .circle {
+                    border-radius: 50%;
+                    display: block;
+                    height: 40px;
+                    width: 40px;
+                    background-color: $secondary-color;
+                    text-align: center;
+                    margin-top: 30px;
+                    i {
+                        font-size: 20px;
+                        color: white;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .team-card {
+        .pilot-img {
+            img {
+                border-radius: 10px;
+                position: absolute;
+            }
+            .pilot-info {
+                position: relative;
+                background-color: $background-color;
+                height: 60px;
+                width: 120px;
+                box-shadow: 0 0 20px rgba(18, 19, 18, 0.2);
+                border-radius: 8px;
+                left: 0;
+                bottom: -410px;
+                h1 {
+                    font-size: 15px;
+                    font-weight: bold;
+                    margin-left: 15px;
+                    padding-top: 10px;
+                }
+                h2 {
+                    font-size: 12px;
+                    color: $text-color;
+                    margin-left: 15px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+    .complement-info-card {
+        align-items: center;
+        padding: 50px;
+        h1 {
+            font-size: $h1;
+            color: $text-color;
+            font-weight: bold;
+        }
+        p {
+            font-size: $p;
+            color: $text-color;
+        }
+    }
+}
+//team-section-end//*

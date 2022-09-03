@@ -1,0 +1,55 @@
+@import "partials/variables";
+
+.home-call-bg {
+    background-image: url(../img/home/call-section/bg.png);
+    background-color: rgb(0, 52, 83);
+}
+
+.faq-call-bg {
+    background-image: url(../img/faq/bg-4.png);
+}
+
+//*call-section-start
+.call-section {
+    padding: 80px 0;
+    .content {
+        color: white;
+        margin-bottom: 20px;
+        .call {
+            font-size: 35px;
+            font-weight: 600;
+            .phn-number {
+                padding-left: 10px;
+            }
+        }
+        .comment {
+            padding-top: 20px;
+            h1 {
+                font-size: 35px;
+                font-weight: 500;
+            }
+        }
+    }
+    .book {
+        padding-top: 20px;
+        .btn {
+            color: white;
+            font-size: 25px;
+            font-weight: 600;
+            background-color: $primary-color;
+            text-align: center;
+            height: 70px;
+            width: 280px;
+            border-radius: 10px;
+            padding-top: 12px;
+            p {
+                margin-left: 50px;
+            }
+            i {
+                margin-left: 20px;
+                margin-top: 8px;
+            }
+        }
+    }
+}
+//*home-call-section-end

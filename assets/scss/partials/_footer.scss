@@ -1,0 +1,118 @@
+//footer-section-start//*
+.footer-section {
+    background-color: rgba(4, 59, 122, 0.911);
+    padding-top: 180px;
+    .details {
+        .logo-card {
+            p {
+                padding-top: 25px;
+                color: white;
+            }
+        }
+        .link-card {
+            margin-left: 40px;
+            h5 {
+                color: white;
+            }
+            a {
+                padding-top: 10px;
+                text-decoration: none;
+                color: white;
+            }
+            .map-location {
+                padding-top: 20px;
+                .circle {
+                    border-radius: 50%;
+                    display: block;
+                    height: 30px;
+                    width: 30px;
+                    background-color: rgba($secondary-color, 0.2);
+                    align-items: center;
+                    i {
+                        padding-left: 10px;
+                        padding-top: 8px;
+                        color: white;
+                    }
+                }
+                p {
+                    margin-left: 10px;
+                    color: white;
+                }
+            }
+            .phn {
+                padding-top: 15px;
+                .circle {
+                    border-radius: 50%;
+                    display: block;
+                    height: 30px;
+                    width: 30px;
+                    background-color: rgba($secondary-color, 0.2);
+                    align-items: center;
+                    i {
+                        padding-left: 8px;
+                        padding-top: 8px;
+                        color: white;
+                    }
+                }
+                p {
+                    margin-left: 10px;
+                    color: white;
+                }
+            }
+            .mail {
+                padding-top: 15px;
+                .circle {
+                    border-radius: 50%;
+                    display: block;
+                    height: 30px;
+                    width: 30px;
+                    background-color: rgba($secondary-color, 0.2);
+                    align-items: center;
+                    i {
+                        padding-left: 8px;
+                        padding-top: 8px;
+                        color: white;
+                    }
+                }
+                p {
+                    margin-left: 10px;
+                    color: white;
+                }
+            }
+        }
+    }
+    .subscribe {
+        margin-top: 80px;
+        align-items: center;
+        .subscribe-card {
+            padding: 20px;
+            margin-top: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            margin-bottom: 40px;
+            .sub-title {
+                color: white;
+                padding: 20px;
+            }
+            .contact {
+                .mail-sub {
+                    width: 80%;
+                    padding-top: 65px;
+                }
+                .sub-button {
+                    padding-top: 65px;
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+    .reserved {
+        border-top: solid;
+        border-color: rgba(255, 255, 255, 0.1);
+        color: white;
+        p {
+            margin-top: 30px;
+        }
+    }
+}
+//footer-section-end//*

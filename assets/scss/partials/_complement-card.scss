@@ -1,0 +1,32 @@
+.complement-card {
+    background-color: $background-color;
+    box-shadow: 0 0 20px rgba(18, 19, 18, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    p {
+        margin-top: 15px;
+        color: $text-color;
+    }
+    .officer {
+        padding-top: 25px;
+        align-items: center;
+        .officer-img {
+            img {
+                border-radius: 50%;
+                height: 70px;
+                width: 70px;
+            }
+        }
+        .officer-info {
+            margin-left: 20px;
+            h1 {
+                font-size: $h1;
+                font-weight: 600;
+            }
+            h2 {
+                font-size: $h2;
+                color: $text-color;
+            }
+        }
+    }
+}

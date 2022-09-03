@@ -1,0 +1,36 @@
+
+
+//banner-section-start//*
+.banner-section {
+    background-image: url(../img/cessna-citation-x-charter-jet-UYSJ67P.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 180px 0;
+    position: relative;
+    z-index: 0;
+    .content {
+        color: white;
+        z-index: 2;
+        position: relative;
+        h1 {
+            font-weight: 600;
+            font-size: 60px;
+        }
+        p {
+            margin-top: 20px;
+            font-weight: 600;
+        }
+    }
+    &:before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+    }
+}
+//banner-section-end//*

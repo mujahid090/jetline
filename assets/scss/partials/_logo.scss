@@ -1,0 +1,39 @@
+@import "partials/variables";
+
+//*home-logo-section-start
+.home-logo{
+    padding: 100px 0;
+    .logo{
+        img{
+            padding-left: 80px;
+        }
+    }
+}
+//*home-logo-section-end
+
+
+//logo-section-start//*
+.logo-section {
+    background-image: url(../img/about-us/bg.png);
+    background-size: cover;
+    padding: 100px 0;
+    img{
+        padding-left: 60px;
+    }
+}
+//logo-section-end//*
+
+//service-logo-section-start//*
+.service-logo-section{
+    padding: 100px 0 100px 40px;
+}
+//service-logo-section-end//*
+
+//faq-logo-section-start//*
+.faq-logo-section {
+    padding-top: 100px;
+    img{
+        padding-left: 60px;
+    }
+}
+//faq-logo-section-end//*

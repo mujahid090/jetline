@@ -1,0 +1,447 @@
+@import "partials/variables";
+
+.home-empty-legs-bg {
+    background-image: url(../img/home/empty-section/bg.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+//*home-empty-legs-section-start
+.home-empty-legs-bg {
+    padding: 250px 0;
+    .content {
+        padding: 20px;
+        .sec-content {
+            padding-bottom: 20px;
+            .circle {
+                content: "";
+                height: 25px;
+                width: 25px;
+                display: block;
+                position: absolute;
+                background-color: rgba(0, 160, 255, 0.2);
+                border-radius: 50%;
+            }
+            h6 {
+                font-size: 15px;
+                font-weight: 500;
+                padding-left: 5px;
+                padding-top: 2px;
+                color: $secondary-color;
+            }
+        }
+        .sec-heading {
+            padding-bottom: 25px;
+            h1 {
+                font-size: 45px;
+                font-weight: 600;
+            }
+        }
+        p {
+            padding-bottom: 40px;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 1.9;
+            color: $text-color;
+        }
+        .arrow {
+            .left-arrow {
+                i {
+                    font-size: 15px;
+                    color: white;
+                    position: relative;
+                    padding-top: 10px;
+                    padding-left: 12px;
+                    display: inline-block;
+                }
+                &:before {
+                    content: "";
+                    height: 35px;
+                    width: 35px;
+                    display: block;
+                    position: absolute;
+                    background-color: rgb(0, 160, 255);
+                    border-radius: 50%;
+                }
+            }
+            .right-arrow {
+                padding-left: 50px;
+                .circle {
+                    content: "";
+                    height: 35px;
+                    width: 35px;
+                    display: block;
+                    position: absolute;
+                    background-color: rgb(0, 160, 255);
+                    border-radius: 50%;
+                }
+                i {
+                    font-size: 15px;
+                    color: white;
+                    position: relative;
+                    padding-top: 10px;
+                    padding-left: 13px;
+                }
+            }
+        }
+    }
+    .empty-card {
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 20px;
+        .ticket {
+            padding-bottom: 20px;
+            .content {
+                background-color: $secondary-color;
+                border-radius: 10px;
+                text-align: center;
+                color: white;
+                position: relative;
+                &:before {
+                    content: "";
+                    height: 25px;
+                    width: 25px;
+                    display: inline-block;
+                    position: absolute;
+                    background-color: white;
+                    border-radius: 50%;
+                    top: 36px;
+                    left: -12px;
+                }
+                &:after {
+                    content: "";
+                    height: 25px;
+                    width: 25px;
+                    display: inline-block;
+                    position: absolute;
+                    background-color: white;
+                    border-radius: 50%;
+                    top: 36px;
+                    right: -12px;
+                }
+                .depurter {
+                    h2 {
+                        font-size: 25px;
+                        font-weight: 600;
+                    }
+                    h5 {
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                }
+                .icon {
+                    padding-top: 20px;
+                }
+                .destination {
+                    h2 {
+                        font-size: 25px;
+                        font-weight: 600;
+                    }
+                    h5 {
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+        .schedule {
+            padding-bottom: 20px;
+            text-align: center;
+            .place {
+                h5 {
+                    font-size: 14px;
+                    font-weight: 500;
+                    padding-bottom: 40px;
+                }
+                h4 {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: $text-color;
+                }
+            }
+            .time {
+                .departure-time {
+                    padding-bottom: 15px;
+                    h5 {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                    h4 {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: $text-color;
+                    }
+                }
+                .arrival-time {
+                    h5 {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                    h4 {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: $text-color;
+                    }
+                }
+            }
+        }
+        .border-dashed {
+            display: block;
+            width: 100%;
+            border-bottom: 1px dashed #ddd;
+        }
+        .empty {
+            text-align: center;
+            .content {
+                .seats {
+                    h5 {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                    .number {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: $secondary-color;
+                        background-color: rgba(0, 160, 255, 0.3);
+                        padding: 2px 10px;
+                        border-radius: 10px;
+                    }
+                }
+                .time {
+                    h5 {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                    .number {
+                        font-size: 14px;
+                        font-weight: 500;
+                        color: $secondary-color;
+                        background-color: rgba(0, 160, 255, 0.3);
+                        padding: 2px 10px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+        .price {
+            padding-top: 10px;
+            .content {
+                h5 {
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 0;
+                }
+            }
+            .cost {
+                .curancy {
+                    font-size: 25px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .btn {
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                color: white;
+                background-color: $primary-color;
+                padding: 10px 60px;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+//*home-empty-legs-section-end
+
+//*empty-legs-section-start
+.empty-legs {
+    padding: 120px 0;
+    .heading {
+        .section-heading {
+            text-align: center;
+            padding-bottom: 80px;
+            h2 {
+                font-size: 18px;
+                font-weight: 600;
+                display: inline-flex;
+                position: relative;
+                color: $secondary-color;
+                &:before {
+                    content: "";
+                    height: 25px;
+                    width: 25px;
+                    background-color: rgba(0, 160, 255, 0.3);
+                    border-radius: 50%;
+                    display: block;
+                    position: absolute;
+                    top: -2px;
+                    left: -6px;
+                }
+            }
+            p {
+                font-size: 42px;
+                font-weight: 600;
+            }
+        }
+    }
+    .empty-legs-card {
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(18, 19, 18, 0.2);
+        padding: 80px 60px;
+        .search {
+            margin-bottom: 60px;
+            .contact {
+                .from-sub {
+                    align-items: center;
+                    margin-right: 10px;
+                }
+                .right-line {
+                    height: 40px;
+                    width: 2px;
+                    display: block;
+                    background-color: $text-color;
+                    margin-right: 10px;
+                }
+                .to-sub {
+                    align-items: center;
+                    margin-right: 10px;
+                }
+                .date {
+                    align-items: center;
+                    margin-right: 10px;
+                }
+                .sub-button {
+                    background-color: $primary-color;
+                    border-radius: 5px;
+                    button {
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 500;
+                        padding: 5px 20px;
+                    }
+                }
+            }
+        }
+        .inquire {
+            .destination {
+                align-items: center;
+                .logo {
+                    background-color: $primary-color;
+                    display: block;
+                    border-radius: 50%;
+                    height: 70px;
+                    width: 70px;
+                    align-items: center;
+                    img {
+                        margin: 10px 0 0 10px;
+                    }
+                }
+                .next{
+                    background-color: $secondary-color;
+                }
+                .place {
+                    line-height: 0;
+                    .place-content {
+                        text-align: center;
+                        font-size: 14px;
+                        h6 {
+                            font-weight: 700;
+                        }
+                        i {
+                            color: $text-color;
+                            margin-top: 3px;
+                        }
+                        p {
+                            color: $text-color;
+                            font-weight: 400;
+                            line-height: 0;
+                        }
+                    }
+                    .time {
+                        h6 {
+                            font-size: 14px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+                .date {
+                    font-size: 14px;
+                    text-align: center;
+                    line-height: 0;
+                    .date-content {
+                        p {
+                            font-weight: 500;
+                        }
+                    }
+                    .time {
+                        h6 {
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .catagory {
+                    line-height: 0;
+                    .catagory-content {
+                        p {
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: $text-color;
+                        }
+                    }
+                    .plane {
+                        h6 {
+                            font-size: 18px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                .stop {
+                    text-align: center;
+                    line-height: 0;
+                    .stop-content {
+                        p {
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: $text-color;
+                        }
+                    }
+                    .service {
+                        h6 {
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+                .price {
+                    h6 {
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                }
+                .quire-button {
+                    background-color: rgba($secondary-color, 0.2);
+                    border-radius: 5px;
+                    .btn {
+                        color: $secondary-color;
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                }
+                .green {
+                    background-color: rgba($primary-color, 0.2);
+                    .btn {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+        .dashed-line {
+            margin: 40px 0;
+            display: block;
+            width: 100%;
+            border-bottom: 2px dashed #ddd;
+        }
+    }
+}
+//*empty-legs-section-end
